@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="INSURANCE.exe" version="1.0.0.1" publicKeyToken="564495fcda5110ca" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="INSURANCE" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="INSURANCE.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="INSURANCE.exe" size="316416">
+      <assemblyIdentity name="INSURANCE" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>EQ7ypW8UciGXnkQtxLNuiEULKUM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MySql.Data.dll" size="437248">
+      <assemblyIdentity name="MySql.Data" version="6.7.4.0" publicKeyToken="C5687FC88969C44D" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>OgerfJMsZ7IFQ16wH2FLVJ8WL90=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=JEAN\makubuya" issuerKeyHash="8a4e669f1081102e0fe141ba8593449bcef372a6" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>Ux3BcZ7rMwdQQ4oj5G7ROgUY4/k=</DigestValue></Reference></SignedInfo><SignatureValue>eXeuNpQUER4Gok4ggqlO2x08ceDy/e1GTKOej+qEDhncZkm2+i88WK4yZPqeWMM/4qUXkSxgjdfDvXIxcx7u1iVRwbICosygdgzo9dvzFI3a9HOm3tjUkch4IdfEmLuc3aadZCSGrs2pQ2PlcucoI6eA+Y20ofBYuD1S3BG/QFk=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>isog00ipJEZTKVDQMBqEugET1yGVnXGrRJfn45AZOoxj7cAEbFQ4M7sX6mgxTI7b6rmMQSLt97bqJ2l5OndLh1Ig9hhc1TeQ+XnN9+DSWcFiQ2NUmUblaFVD6dwBk3g4LmaOIJWu3TkvETTNKX2BnRrFhY0BammWFPvPijsFC/s=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="f9e318053ad16ee4238a43500733eb9e71c11d53" Description="" Url=""><as:assemblyIdentity name="INSURANCE.exe" version="1.0.0.1" publicKeyToken="564495fcda5110ca" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=JEAN\makubuya</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>AAys6QUPkf+ZYnIsGfTBHwWFiCM=</DigestValue></Reference></SignedInfo><SignatureValue>GsyzUVoYxHc4gDCiKtEQJpJa3uvh8VCFTJ/sTHQbET1FhRGxdqzgsn7WveBt4+limt4uMhSdXLBunmbFCmiiyNZLvJ7N2fLdEBi9CNW700zJwgSc+ppo1qikQvj64HAEZG35AFm7JDMb+Lee1j8Up1uVplOue4R8yb6hClIIP7Y=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>isog00ipJEZTKVDQMBqEugET1yGVnXGrRJfn45AZOoxj7cAEbFQ4M7sX6mgxTI7b6rmMQSLt97bqJ2l5OndLh1Ig9hhc1TeQ+XnN9+DSWcFiQ2NUmUblaFVD6dwBk3g4LmaOIJWu3TkvETTNKX2BnRrFhY0BammWFPvPijsFC/s=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBzTCCATagAwIBAgIQbGm4hjxpbbJP0Jsu65DNijANBgkqhkiG9w0BAQUFADAlMSMwIQYDVQQDHhoASgBFAEEATgBcAG0AYQBrAHUAYgB1AHkAYTAeFw0xODExMDgxMTI0NTZaFw0xOTExMDgxNzI0NTZaMCUxIzAhBgNVBAMeGgBKAEUAQQBOAFwAbQBhAGsAdQBiAHUAeQBhMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCKyiDTSKkkRlMpUNAwGoS6ARPXIZWdcatEl+fjkBk6jGPtwARsVDgzuxfqaDFMjtvquYxBIu33tuonaXk6d0uHUiD2GFzVN5D5ec334NJZwWJDY1SZRuVoVUPp3AGTeDguZo4gla7dOS8RNM0pfYGdGsWFjQFqaZYU+8+KOwUL+wIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAEZYFsr8hOFa5WOafaRJ6luVkWsFTpISuVzJr6YQx2rpRAeyuq7b0QhYTW3YxIdo3fWWLecNmU5vwMb5BuJLGQIVa6GpXeu0fFcuBjOqLmGCpJOukozCXh8NM1z64uSSe4q0gG5O8+K12YTOl4QL5KZisdBbdA4FaBazX1jOtqP2</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
